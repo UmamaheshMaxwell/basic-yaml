@@ -1,0 +1,29 @@
+name: Uma
+city: Bangalore
+age: 36
+address: 
+  State: Karnataka
+  Country: India
+hobbies:
+  - Novel reading
+  - Singing
+  - Travelling
+  - Meeting friends
+description: >
+  I am technical project manager and passionate developer
+  I love reading books and singing sometimes
+skills: |
+  NodeJS
+  Python
+  Angular
+  Express
+  MongoDB
+  MySql
+domains: |
+  <div>
+    <ul>
+      <li>Education</li>
+      <li>Business</li>
+    </ul>  
+  </div>
+  
