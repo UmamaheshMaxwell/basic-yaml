@@ -3,8 +3,8 @@ person:
  name: &name 'Uma'
  city: 'Bangalore'
  age: 36
- rating: !!float 5
- grade: !!str 1
+ rating: !!float 5 # 5.0
+ grade: !!str 1 # '1'
  dob: 1982-04-16
  hobbies: # list can be written in below two ways
   - 'reading'
@@ -18,7 +18,7 @@ person:
   - 
    name: 'kp'
    city: 'domlur'
- description: > # will display all content in single line
+ description: > # will display all the content in a single line
   A bind mount is just mapping a directory on the host machine 
   to a directory in the container. However, when the container 
   is removed, it does not affect the directory.
