@@ -1,0 +1,36 @@
+---
+person:
+ name: &name 'Uma'
+ city: 'Bangalore'
+ age: 36
+ rating: !!float 5
+ grade: !!str 1
+ dob: 1982-04-16
+ hobbies: # list can be written in below two ways
+  - 'reading'
+  - 'singing'
+  - 'listening'
+ movies: ['Predator', 'Terminator']
+ friends: # object can be written in below three ways
+  - name: 'gowda'
+    city: 'peenya'
+  - {name: 'Sundar', city: 'RR Nagar'}
+  - 
+   name: 'kp'
+   city: 'domlur'
+ description: > # will display all content in single line
+  A bind mount is just mapping a directory on the host machine 
+  to a directory in the container. However, when the container 
+  is removed, it does not affect the directory.
+ signature: | # will preserve the format
+   Mahesh
+    He is the one
+   email - uma@olive.com
+ id: *name # anchor the simple value
+
+ book: &book # anchor an object
+  name: 'Snow Wolf'
+ copy:
+    <<: *book # name: 'Snow Wolf'
+
+
